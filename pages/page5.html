@@ -44,47 +44,28 @@
             </div>
         </div>
     </nav>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="https://picsum.photos/1900/500?random=1" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="https://picsum.photos/1900/500?random=2" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="https://picsum.photos/1900/500?random=3" class="d-block w-100" alt="...">
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-    </div>
+
+    <img src="https://picsum.photos/1900/800?random=1" class="d-block w-100" alt="...">
+
     <div id="after_submit"></div>
     <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
         <div class="row">
-            <label class="required" for="name">Nombre y Apellido:</label><br />
-            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <label class="required" for="name">Nombre y Apellido:</label><br/>
+            <input id="name" class="input" name="name" type="text" value="" size="30"/><br/>
             <span id="name_validation" class="error_message"></span>
         </div>
         <div class="row">
             <label class="required" for="email">Email:</label><br />
-            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+            <input id="email" class="input" name="email" type="text" value="" size="30"/><br/>
             <span id="email_validation" class="error_message"></span>
         </div>
         <div class="row">
             <label class="required" for="message">Comentario:</label><br />
-            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br/>
             <span id="message_validation" class="error_message"></span>
         </div>
 
-        <input id="submit_button" type="submit" value="Send email" />
+        <input id="submit_button" type="submit" value="Enviar"/>
     </form>
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
